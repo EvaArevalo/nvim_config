@@ -59,7 +59,7 @@ set mouse=a
 "      \   'cache_enabled': 1,
 "      \ }
 "Use system clipboard
-set clipboard+=unnamedplus
+"set clipboard+=unnamedplus
    
 "---Airline settings---
 set showtabline=2
@@ -85,10 +85,11 @@ set noexpandtab
 
 "---Pylint settings---
 let g:black_linelength = 79
-let g:pymode_lint_ignore = ["C0103","C0114","C0301","C0302","C0415","E0110","E0401","E1101","R0201","R0901","R0902","R0903","R0904","R0911","R0912","R0913","R0914","R0915","R0921","R0922","R1702","R1732","W0212","W0231","W0401","W0511","W0603","W0614","W0702","W1203","W1505"]
+let g:pymode_lint_ignore = ["C0103","C0114","C0301","C0302","C0415","E203", "E0110","E0401","E1101","E501","R0201","R0901","R0902","R0903","R0904","R0911","R0912","R0913","R0914","R0915","R0921","R0922","R1702","R1732","W0212","W0231","W0401","W0511","W0603","W0614","W0702","W1203","W1505"]
 let g:pymode_warnings = 1
 let g:pymode_lint_sort = ["E","W","C","I"]
 let g:pymode_lint_checkers = ['pylint','pyflakes', 'pep8', 'mccabe']
+let g:pymode_lint_on_write = 0
 
 " Place error signs
 let g:pymode_lint_signs = 1
