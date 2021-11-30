@@ -22,6 +22,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'Pocco81/Catppuccino.nvim'
 Plug 'tomasr/molokai'
 Plug 'sonph/onehalf', { 'rtp': 'vim' }
+Plug 'tanvirtin/monokai.nvim'
 "--Tut plugins---
 Plug 'ryanoasis/vim-devicons'
 "Plug 'SirVer/ultisnips'
